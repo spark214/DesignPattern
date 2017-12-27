@@ -10,7 +10,7 @@ public class webflower implements subject {
     private String flowerName;
     private float flowerPrice;
 
-    private ArrayList customersList;
+     private ArrayList customersList=new ArrayList();
 
     public void registerObserver(observer o){
         customersList.add(o);
@@ -36,8 +36,8 @@ public class webflower implements subject {
     }
 
     public void setFlower(String flowerName,float flowerPrice){
-        this.flowerName=flowerName;
-        this.flowerPrice=flowerPrice;
-        flowersChange();
+            this.flowerName=flowerName;
+            this.flowerPrice=flowerPrice;
+            flowersChange();
     }
 }
