@@ -1,4 +1,4 @@
-package FactoryPattern;
+package AbstractFactoryPattern;
 
 /* 第五步 */
 /* 原料工厂制作的接口 */

@@ -1,4 +1,4 @@
-package FactoryPattern;
+package AbstractFactoryPattern;
 
 /* 第十步 */
 /* 抽象披萨工厂  */

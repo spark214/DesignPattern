@@ -1,4 +1,4 @@
-package FactoryPattern;
+package AbstractFactoryPattern;
 
 /* 第九步 */
 /* 具体原料工厂向纽约工厂制造的原料 */
